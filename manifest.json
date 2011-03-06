@@ -1,0 +1,11 @@
+{
+  "name": "Apps to Bookmark Bar",
+  "version": "0.5",
+  "description": "Adds an icon to the bookmark bar when you install an app from the Chrome Web Store.",
+  "background_page": "a2b.html",
+  "permissions": ["management", "bookmarks"],
+  "icons": { "16": "a2b16.png",
+			 "48": "a2b48.png",
+			 "128": "a2b128.png"}
+}
+
