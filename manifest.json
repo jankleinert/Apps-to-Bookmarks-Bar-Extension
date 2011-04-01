@@ -1,9 +1,10 @@
 {
   "name": "Apps to Bookmark Bar",
-  "version": "0.5",
-  "description": "Adds an icon to the bookmark bar when you install an app from the Chrome Web Store.",
+  "version": "0.8",
+  "description": "Adds an icon to the bookmark bar when an app's installed from the Chrome Web Store. Now has omnibox support.",
   "background_page": "a2b.html",
   "permissions": ["management", "bookmarks"],
+  "omnibox": { "keyword" : "a2b" },
   "icons": { "16": "a2b16.png",
 			 "48": "a2b48.png",
 			 "128": "a2b128.png"}
